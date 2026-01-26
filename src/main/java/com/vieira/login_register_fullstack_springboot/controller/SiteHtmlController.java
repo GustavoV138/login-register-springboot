@@ -8,7 +8,7 @@ public class SiteHtmlController {
 
     @GetMapping("/")
     public String exibirSite() {
-        return "redirect:login.html";
+        return "redirect:htmls/login.html";
     }
 }
 
